@@ -5,7 +5,7 @@ import Spacer from './Spacer';
 
 const linkStyle = {
     marginRight: 15,
-    fontFamily: 'Spartan',
+    fontFamily: 'Verdana',
     textDecoration: 'none',
     color: 'black',
 };
@@ -17,7 +17,7 @@ const header = {
     left: 0,
     width: '100%',
     height: '1rem',
-    backgroundColor: 'pink',
+    backgroundColor: 'skyblue',
     color: 'white',
 }
 
@@ -28,7 +28,7 @@ const footer = {
     bottom: 0,
     width: '100%',
     height: '1rem',
-    backgroundColor: 'pink',
+    backgroundColor: 'skyblue',
     color: 'white',
     display: 'flex',
     justifyContent: 'center',
@@ -39,24 +39,23 @@ const Header = () => (
         <Link href="/">
             <a style={linkStyle}>Home</a>
         </Link>
+
         <a style={linkStyle} href="/resume.pdf">Resume</a>
-        <Link href="/poems">
-            <a style={linkStyle}>Poetry</a>
+        <a style={linkStyle} href="https://github.com/mewong76"> Github </a>
+        <a style={linkStyle} href="https://www.linkedin.com/in/melissa-wong-59609814a/"> LinkedIn </a>
+        
+        <Link href="/interests">
+            <a style={linkStyle}></a>
         </Link>
-        <Link href="/mentor">
-            <a style={linkStyle}>Mentor</a>
-        </Link>
+
     </div>
 );
 
+
 const Layout = () => {
-    return <> <Header /> <Footer /></>
+    return <> <Header /></>
 }
 
-const Footer = () => (<div style={footer}>
-    <a style={linkStyle} href="https://github.com/michellewong793"> Github </a>
-    <a style={linkStyle} href="https://linkedin.com/in/michellewong793"> LinkedIn </a>
-</div>);
 
 export default Layout;
 

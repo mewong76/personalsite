@@ -1,20 +1,20 @@
 let styles = {
     body: {
-        fontFamily: 'Spartan',
+        fontFamily: 'Verdana',
         fontSize: '14px',
     },
     
     h2: {
-        fontFamily: 'Spartan',
+        fontFamily: 'Verdana',
         fontSize: '16px',
     },
 
     header: {
-        fontFamily: 'Spartan',
+        fontFamily: 'Verdana',
     },
 
     link: {
-        fontFamily: 'Spartan',
+        fontFamily: 'Verdana',
         fontSize: '14px',
         textDecoration: 'none',
     },
